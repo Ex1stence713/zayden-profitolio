@@ -1,2 +1,50 @@
-# zayden-profitolio
-To jest moje portfolio online stworzone w czystym HTML, CSS (i opcjonalnie JS), bez żadnych gotowych kreatorów. Zawiera sekcję **O mnie**, **moje projekty** oraz **dane kontaktowe**.
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zayden – Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Paweł</h1>
+      <nav>
+        <ul>
+          <li><a href="#o-mnie">O mnie</a></li>
+          <li><a href="#projekty">Projekty</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="o-mnie" class="container">
+      <h2>O mnie</h2>
+      <p>Cześć, mam na imię Paweł. Tworzę skrypty w JavaScript oraz proste i funkcjonalne rozwiązania, które po prostu działają.</p>
+    </section>
+
+    <section id="projekty" class="container">
+      <h2>Projekty</h2>
+      <ul class="projekty-lista">
+        <li>⚡ Bot Discord w JS (wkrótce link)</li>
+        <li>⚡ Skrypty do MTA RP</li>
+        <li>⚡ Inne projekty w budowie...</li>
+      </ul>
+    </section>
+
+    <section id="kontakt" class="container">
+      <h2>Kontakt</h2>
+      <p>Email: <a href="mailto:"> mail w trakcie tworzenia</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Paweł. Wszystkie prawa zastrzeżone.</p>
+    </div>
+  </footer>
+</body>
+</html>
